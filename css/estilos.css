@@ -8,7 +8,8 @@ body {
 }
 
 header h1 {
-    font-size: 7.5rem;
+    font-size: 8.5rem;
+    font-weight: 800;
 }
 
 h2 {
@@ -35,15 +36,14 @@ header {
 }
 
 header img {
-    width: 50%;
-    border-radius: 50%;
+    width: 40%;
 }
 
 nav {
     display: flex;
     justify-content: center;
     gap: 8rem;
-    background-color: #1f1f1f;
+    background-color: rgb(114, 17, 17);
     padding: 0.5rem 0;
 }
 
@@ -68,20 +68,45 @@ section {
     margin-bottom: 2rem;
 }
 
-section h2 {
-    text-decoration: underline;
+#sobre-mi {
+    background-color: rgb(114, 17, 17);
+    font-weight: 500;
 }
 
 #streams {
     font-size: 2rem;
 }
 
-#juegos {
+/* #juegos {
     text-align: left;
+    font-weight: 500;
+    background-color: rgb(114, 17, 17);
+    text-align: center;
+    list-style-type: none;
+} */
+
+table {
+    border-collapse: collapse;
+    margin: 1.3rem 0;
+    width: 100%;
+    background-color: rgb(114, 17, 17);
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td {
+    padding: 1rem 1rem;
+}
+
+td:first-child {
+    font-weight: bold;
 }
 
 footer {
-    background-color: #1f1f1f;
+    background-color: #0e0e0e;
     text-align: center;
     padding: 0.5rem;
     margin-top: 4rem;
